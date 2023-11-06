@@ -30,7 +30,6 @@ public class TransposeMatrix {
                 transposedMatrix[j][i] = matrix[i][j];
             }
         }
-
         return transposedMatrix;
     }
 
@@ -44,8 +43,8 @@ public class TransposeMatrix {
         printFormattedMatrix(transposedMatrix);
     }
 
-    private static void printFormattedMatrix(int[][] matrix){
-        for(int i = 0; i < matrix.length; i++) {
+    private static void printFormattedMatrix(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
             System.out.print("[");
             for (int j = 0; j < matrix[0].length; j++) {
                 System.out.print(matrix[i][j] + ",");
