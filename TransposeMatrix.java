@@ -16,13 +16,7 @@ public class TransposeMatrix {
             }
         }
 
-        int[][] transposedMatrix = transpose(matrix);
-
-        System.out.println("Original Matrix:");
         printMatrix(matrix);
-
-        System.out.println("\nTransposed Matrix:");
-        printMatrix(transposedMatrix);
     }
 
     private static int[][] transpose(int[][] matrix) {
@@ -40,13 +34,23 @@ public class TransposeMatrix {
         return transposedMatrix;
     }
 
-    //! This does not print out like a grid format
     private static void printMatrix(int[][] matrix) {
-        for (int i = 0; i < matrix.length; i++) {
+        System.out.println("\nOriginal Matrix");
+        printFormattedMatrix(matrix);
+
+        int[][] transposedMatrix = transpose(matrix);
+
+        System.out.println("\nTransposed Matrix");
+        printFormattedMatrix(transposedMatrix);
+    }
+
+    private static void printFormattedMatrix(int[][] matrix){
+        for(int i = 0; i < matrix.length; i++) {
+            System.out.print("[");
             for (int j = 0; j < matrix[0].length; j++) {
-                System.out.println(matrix[i][j] + " ");
+                System.out.print(matrix[i][j] + ",");
             }
-            System.out.println();
+            System.out.print("]\n");
         }
     }
 }
