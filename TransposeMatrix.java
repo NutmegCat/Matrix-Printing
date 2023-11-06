@@ -1,3 +1,7 @@
+//! ||--------------------------------------------------------------------------------||
+//! || This branch is not in use because of an error of the printMatrix method        ||
+//! ||--------------------------------------------------------------------------------||
+
 public class TransposeMatrix {
     public static void main(String[] args) {
         System.out.println("Enter the number of rows: ");
