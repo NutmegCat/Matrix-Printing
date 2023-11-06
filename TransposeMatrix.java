@@ -1,3 +1,5 @@
+// Aaron Prince Anu
+
 public class TransposeMatrix {
     public static void main(String[] args) {
         System.out.println("Enter the number of rows: ");
@@ -47,7 +49,7 @@ public class TransposeMatrix {
         for (int i = 0; i < matrix.length; i++) {
             System.out.print("[");
             for (int j = 0; j < matrix[0].length; j++) {
-                System.out.print(matrix[i][j] + ",");
+                System.out.print(matrix[i][j] + " ");
             }
             System.out.print("]\n");
         }
