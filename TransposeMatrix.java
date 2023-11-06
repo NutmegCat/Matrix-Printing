@@ -12,7 +12,7 @@ public class TransposeMatrix {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 System.out.println("Enter element at a position(" + (i + 1) + ", " + (j + 1) + "):");
-                matrix[i][j] = In.get;
+                matrix[i][j] = In.getInt();
             }   
         }
 
