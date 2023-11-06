@@ -1,5 +1,5 @@
 //! ||--------------------------------------------------------------------------------||
-//! || This branch is not in use because of an error of the printMatrix method        ||
+//! ||    This branch is not in use because of an error of the printMatrix method     ||
 //! ||--------------------------------------------------------------------------------||
 
 public class TransposeMatrix {
